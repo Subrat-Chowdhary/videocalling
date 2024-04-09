@@ -27,13 +27,13 @@ const MobileNav = () => {
           <Link href="/" className="flex items-center gap-1">
             <Image
               src="/icons/logo3.png"
-              width={200}
-              height={84}
+              width={84}
+              height={60}
               alt="logo"
             />
         <div className="flex flex-col">
-          <p className='text-[26px]'>Viliyo</p>
-          <p className='text-[14px]'>Video Meeting App</p>
+          <p className='text-[28px] text-white font-extrabold'>Viliyo</p>
+          <p className='text-[12px] text-white font-extrabold'>Video Meeting App</p>
         </div>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">

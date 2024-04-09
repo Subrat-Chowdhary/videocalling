@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "videocalling",
   description: "Video calling App",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/icons/logo3.png",
   },
 };
 
@@ -28,6 +28,7 @@ export default function RootLayout({
           layout: {
             socialButtonsVariant: "iconButton",
             logoImageUrl: "/icons/logo3.png",
+
           },
           variables: {
             colorText: "#fff",
