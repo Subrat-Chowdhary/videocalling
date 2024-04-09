@@ -26,11 +26,15 @@ const MobileNav = () => {
         <SheetContent side="left" className="border-none bg-dark-1">
           <Link href="/" className="flex items-center gap-1">
             <Image
-              src="/icons/viliyo1.png"
+              src="/icons/logo3.png"
               width={200}
               height={84}
               alt="logo"
             />
+        <div className="flex flex-col">
+          <p className='text-[26px]'>Viliyo</p>
+          <p className='text-[14px]'>Video Meeting App</p>
+        </div>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
