@@ -26,16 +26,11 @@ const MobileNav = () => {
         <SheetContent side="left" className="border-none bg-dark-1">
           <Link href="/" className="flex items-center gap-1">
             <Image
-              src="/icons/logo3.png"
-              width={32}
-              height={32}
+              src="/icons/viliyo1.png"
+              width={200}
+              height={84}
               alt="logo"
             />
-            <div className="flex flex-col">
-            <p className="text-[26px] font-extrabold text-white">VILIYO</p>
-            <p className="text-[12px] font-extrabold text-white">भारत का अपना वीडियो कॉलिंग</p>
-
-            </div>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
